@@ -2,19 +2,14 @@
  "short_name": "ParkOn",
  "name": "ParkOn",
  "lang": "ru-RU",
- "start_url": "https://dmitri2205.github.io/parkon/index.html",
+ "start_url": "https://kradyedy.github.io/ParkOn/index.html",
  "background_color": "white",
  "theme_color": "white",
  "orientation": "any",
  "display": "standalone",
  "icons": [
-     {
-    "src":"../static/build/backgroundMain.png",
-     "sizes": "512x512",
-     "type": "image/png"
-   },
-   {
-    "src":"../static/build/logo.png",
+       {
+     "src":"../static/build/logo.png",
      "sizes": "246x99",
      "type": "image/png"
    },
@@ -31,6 +26,11 @@
    {
      "src":"../static/build/photo.png",
      "sizes": "18x17",
+     "type": "image/png"
+   },
+     {
+     "src":"../static/build/logo.png",
+     "sizes": "512x512",
      "type": "image/png"
    },
    {
