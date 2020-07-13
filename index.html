@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>ParkOn</title>
+			<link rel="manifest" href="manifest/manifest.json">
+	     <meta name="viewport" content="width=device-width, initial-scale=1">
+  	   <meta name="theme-color" content="#44F1A6">
+
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=b2ee8f08-a037-4bb4-be59-dc5ed72ce461" type="text/javascript">
+		</script>
+		
+     <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    
+     <link rel="icon" href="static/build/favicon.ico" type="image/x-icon">	
+</head>
+<body>
+	<div id="root">
+      <div class="loader" 
+      style=" display: block;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    z-index: -9999;" 
+    >
+   <h1 >Загрузка...</h1>
+   <img src="static/build/loader.gif">
+   </div>
+   </div>
+
+
+	
+	<script src="static/build/app.js"></script>
+	<script>
+   		if ('serviceWorker' in navigator) {
+    	   window.addEventListener('load', function() {
+           navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+               // Registration was successful
+               console.log('ServiceWorker успешно зарегистрирован со сферой действия: ', registration.scope);
+            	}, function(err) {
+               // registration failed :(
+              	 console.log('ServiceWorker не удалось зарегистрировать: ', err);
+            	}).catch(function(err) {
+               		console.log(err)
+           		});
+       		});
+   } else {
+       console.log('ServiceWorker не поддерживается');
+   };
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
