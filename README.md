@@ -109,6 +109,7 @@ MapModule => About\Feedback\Personal\Personalroom
 
 
 <p>Dependencies</p>
+<br>
 <ul>
   <li>@babel/polyfill:7.8.7</li>
   <li>axios:0.19.2</li>
@@ -117,10 +118,8 @@ MapModule => About\Feedback\Personal\Personalroom
   <li>react-dom:16.13.1</li>
   <li>react-yandex-maps:4.3.0</li>
 </ul>
-
-
-
 <p>DevDependencies</p>
+<br>
 <ul>
   <li>@babel/core:7.9.0</li>
   <li>@babel/plugin-proposal-class-properties:7.8.3</li>
