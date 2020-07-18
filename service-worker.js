@@ -34,8 +34,8 @@ self.addEventListener('install', function(event) {
                       // Открываем и кэшируем нужные страницы и файлы
                           const urlsToCache = [
                            'https://dmitri2205.github.io/parkon/index.html',
-                           'https://dmitri2205.github.io/parkon//static/build/loader.gif',
-                           'https://dmitri2205.github.io/parkon//static/build/app.js'
+                           'https://dmitri2205.github.io/parkon/static/build/loader.gif',
+                           'https://dmitri2205.github.io/parkon/static/build/app.js',
                           ];
                           cache.addAll(urlsToCache);
                           console.log('cached');
