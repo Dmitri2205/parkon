@@ -13,20 +13,19 @@
  <br>
  Все права интелектуальной собственности на код сервера принадлежат Абзалу Танкибаеву.
  <br>
- <a href="https://github.com/AbzalT/parkon">ParkOn Client Server by Abzal Tankibayev</a>
+ Backend-разработчик:<a href="mailto:AbzalT@list.ru">Абзал Танкибаев</a>
  <br>
- <a href="https://hh.kz/resume/46794fc2ff060945d60039ed1f34373668386f">Резюме.Абзал Танкибаев.</a>
+ <a href="https://github.com/AbzalT/parkon">Сборка тестового сервера</a>
+ <br>
+ <a href="https://hh.kz/resume/46794fc2ff060945d60039ed1f34373668386f">Резюме backend-разработчика</a>
  
- <a href="https://github.com/AbzalT">Репозиторий backend разработчика</a>
+ <a href="https://github.com/AbzalT">Репозиторий backend-разработчика</a>
  
  
  
  <h4>Контакты</h4>
   <br>
   Продуктоунер:<a href="mailto:marfuny95@mail.ru">Илья Литвинов</a>
-  <br>
-  <br>
-  Backend-разработчик:<a href="mailto:AbzalT@list.ru">Абзал Танкибаев</a>
   <br>
   <br>
   На данный момент приложение находится в тестовом режиме.На момент презентации продукта нами был арендован виртуальный VDS сервер на хостинге <a href="https://firstvds.ru"> firstvds.ru</a> c VNZ-виртуализацией и Ubuntu 18.4 arm64. 
