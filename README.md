@@ -140,9 +140,9 @@ MapModule => About\Feedback\Personal\Personalroom
 
 
 
+###23.09.2020
 
-
-
+Добавлен экран краудфайндинга и мелкие доработки
 
 
 
