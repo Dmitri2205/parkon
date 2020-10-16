@@ -1,5 +1,5 @@
 <h1>ParkOn</h1>
-
+<a href="https://dmitri2205.github.io/parkon/">ссылка на тестовую версию</a>
 <p>Проект выпускной практики на курсах Frontend разработки на портале <a href="https://geekbrains.ru">Geekbrains</a> от Mail.ru Group.</p>
 <br>
 <p>Проект представляет собой Progressive Web App-приложение написаннное на React.js
@@ -143,26 +143,3 @@ MapModule => About\Feedback\Personal\Personalroom
 ###23.09.2020
 
 Добавлен экран краудфайндинга и мелкие доработки
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
